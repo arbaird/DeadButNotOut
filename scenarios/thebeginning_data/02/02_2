@@ -1,0 +1,3 @@
+uthred,haugh,gudrum=getVar('heros')
+centerMap(gudrum)
+gudrum.talk(["Damn, we are too far away!","I hope they will make it!"])

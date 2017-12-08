@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/26/trunk/DCR/src/content
+END
+list_weapons.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/DCR/src/content/list_weapons.py
+END
+units_alliance.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/DCR/src/content/units_alliance.py
+END
+list_units.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/DCR/src/content/list_units.py
+END
+units_misc.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/DCR/src/content/units_misc.py
+END
+units_amphibians.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/DCR/src/content/units_amphibians.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/26/trunk/DCR/src/content/__init__.py
+END
+list_unit_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/26/trunk/DCR/src/content/list_unit_config.py
+END
+units_undead.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/DCR/src/content/units_undead.py
+END

@@ -1,0 +1,6 @@
+uthred,haugh,gudrum=getVar('heros')
+if uthred.isAlive():
+	uthred.talk(["Better luck next time","But beware!","There's no third mission yet!","Goodbye"])
+elif gudrum.isAlive():
+	gudrum.talk(["Better luck next time","But beware!","There's no third mission yet!","Goodbye"])
+sys.exit()

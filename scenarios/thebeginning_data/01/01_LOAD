@@ -1,0 +1,19 @@
+setVar('Player',Player(self,0,"Unaware Humans"))
+setVar('Enemy',Player(self,1,"The Undead",SimpleAI()))
+
+# create players
+addPlayer(getVar('Player'))
+addPlayer(getVar('Enemy')) 
+
+setHumanPlayer(getVar('Player'))
+setActivePlayer(getVar('Player'))
+
+# create map
+setMap('map1.tmx','std_tiles.png','std_tiles.desc')
+          
+# create own variables
+setState(0)
+setVar('escaped',[])
+
+# start own script
+execute('01','01_1')

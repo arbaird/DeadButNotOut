@@ -1,0 +1,31 @@
+hp=getVar('Human') # get the human-player
+ep=getVar('CPU')   # get the cpu-player
+
+# let's create some units
+# we can use all python-tricks we want
+
+# let's create three random units (Illithids, SpectralToads or Soldiers) at (2,2),(2,3) and (2,4) for the human-player
+for pos in ((2,2),(2,3),(2,4)):
+      u=random.choice((Illithid,SpectralToad,Soldier))
+      Unit(u,hp).jumpTo(pos)
+
+# and some units for the cpu-player
+Unit(Soldier,ep).jumpTo((5,2))
+Unit(Soldier,ep).jumpTo((5,3))
+Unit(Soldier,ep).jumpTo((5,4))
+
+# let's make some action
+u=getUnitAt((5,2))
+u.talk(["Die!"])
+u.walkTo((3,2),True)
+for _ in range (5):
+      fight(u,getUnitAt((2,2)),True)
+
+u.walkTo((5,2),True)
+
+getUnitAt((2,2)).talk(["Why are you doing this?"])
+dontdie=getUnitAt((2,2))
+addObjective(ObjUnitMayNotDie(dontdie))
+addObjective(ObjKillEnemies(self))
+addObjective(ObjCustom(self,"Don't be stupid"))
+showObjectives()

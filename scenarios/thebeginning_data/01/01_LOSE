@@ -1,0 +1,3 @@
+messageBox("Fail!",["You lost!"])
+###### go on
+sys.exit()

@@ -1,0 +1,67 @@
+v 0.9
+
+- cheat-mode
+- on level-up, units get less HP
+- on level-up, units make more damage
+
+v 0.8
+
+- BUGFIX (textbox-class)
+- BUGFIX (game crashed when pathfinding failed)
+- BUGFIX (use transform.smoothscale only with pygame 1.8 or higher)
+- new campaigns are now added automaticly
+- some control improvements
+- you can't attack yourself anymore
+- you can't heal enemies anymore
+- when you don't want to attack, you have to click an the unit to end its turn
+- darker unit images are now created on-the-fly, no more need of 2 files for unit-tiles
+- scripts are no longer stored in a class but in files
+- new AI-class (CowardAI)
+- many new Units/weapons
+- new scripting features (fight/getUnitAt/centerMap/moveMap)
+- basic saving/loading
+
+v 0.7
+
+- changed map-class
+- some bug fixes
+- even more bugfixes
+- added new feature for scripting (earthquake)
+- added new feature for scripting (highligthing of tiles)
+- a little animation if unit gets killed
+- an objective (scenario-goals) system
+- new states of units (escaped/disappeared)
+- improved scripting abilities 
+- nicer messagebox
+- startet a new campaign (the beginning)
+
+v 0.6
+
+- little fighting animation
+- some code clean-up
+- now units attack directly after movement
+- changed controls (press LCTRL to scroll map)
+- added an undo-movement-function (right click)
+- even more code cleanup
+- changing a lot of methods/functions 
+- some bug-fixes
+- added key-controls (enter/backspace/arrows)
+- XP-System
+- *.tmx (Tiled-Mapeditor)-parser
+- it's now possible to use another map-tileset
+- new class: TMXParser
+- rearranging the scenario-stuff 
+
+v 0.5
+
+- a changelog
+- event-system makes skripting more easy
+- fixed some code in updateLogic/waitForSpace
+- added new state: WAIT_FOR_SPACE
+- some mirror corrections
+- flying implemented
+- changing of ai-class
+- more unit/weapons
+- startet 2. part of tutorial
+- changed class 'Unit' so scripting is more easy
+- fixed a bug in GameEngine.nextPlayer

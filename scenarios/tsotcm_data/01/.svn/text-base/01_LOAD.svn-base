@@ -1,0 +1,15 @@
+setVar('Human',Player(self,0,"The player"))
+setVar('CPU',Player(self,1,"The CPU",SimpleAI()))
+
+# create players
+addPlayer(getVar('Human'))
+addPlayer(getVar('CPU')) 
+
+setHumanPlayer(getVar('Human'))
+setActivePlayer(getVar('Human'))
+
+# create map
+setMap('1.tmx','std_tiles.png','std_tiles.desc')
+
+# start own script
+execute('01','01_the_chocolate_milk')

@@ -1,0 +1,33 @@
+#! /usr/bin/python
+
+import sys
+import os
+import pygame
+
+def main():
+    
+    
+    # setting up correct path
+    sys.path.append(os.path.join(sys.path[0],'src'))
+    
+    try:
+        import psyco
+        from psyco.classes import __metaclass__
+        psyco.full()
+        psyco.log()
+        print ("using psyco")
+    except:
+        print ("No psyco found.....")
+    
+    pygame.mixer.init(44100, -16, 2, 512)
+    pygame.display.init()
+    pygame.font.init()
+    pygame.init()
+    
+    from game import GameEngine
+        
+    g=GameEngine()
+    g.run()
+    
+if __name__=="__main__":
+    main()

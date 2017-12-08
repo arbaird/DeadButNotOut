@@ -1,0 +1,46 @@
+# name=move,cover
+p=1,0 #plains
+sp=2,10 # snow plains
+f=2,10 # forest
+sf=4,30#snow forest
+m=3,20 # mountain
+sm=4,30 #snowmountain
+b=1,0 # bridge
+s=2,30 # settlement
+w=99,0 #water
+r=1,10 # rock
+sr=1,10 #snow r
+e=1,0 # empty
+
+mapdesc=(w,f,sf,p,p,p,p,p,w,w,w,w,w,w,w,w, \
+p,p,p,p,p,m,m,m,w,w,w,w,w,w,w,w, \
+p,p,p,p,p,m,m,m,w,w,w,w,w,w,w,w, \
+p,p,p,p,p,m,m,sm,w,w,w,w,w,w,w,w, \
+sp,sp,sp,p,p,m,m,p,w,w,w,w,w,w,w,w, \
+sp,sp,sp,p,p,sm,sm,sm,w,w,w,w,w,w,w,e, \
+sp,sp,sp,sp,sp,sp,sp,p,f,f,f,f,f,f,f,f, \
+p,p,p,p,p,m,m,sm,f,f,f,f,f,f,f,f, \
+p,p,p,p,p,r,r,sr,f,f,f,f,f,f,f,f, \
+p,p,p,p,p,f,f,p,f,f,f,f,f,f,f,f, \
+sm,sm,s,s,s,s,s,s,f,f,f,f,f,f,f,f, \
+sm,sm,s,s,s,s,s,s,f,f,f,f,f,f,f,f, \
+f,f,b,b,b,b,b,b,sf,sf,sf,sf,sf,sf,sf,sf, \
+s,s,s,p,s,s,p,p,sf,sf,sf,sf,sf,sf,sf,sf, \
+s,s,s,s,s,s,p,p,sf,sf,sf,sf,sf,sf,sf,sf, \
+s,s,s,s,s,s,p,p,sf,sf,sf,sf,sf,sf,sf,sf, \
+f,f,f,f,s,s,s,s,sf,sf,sf,sf,sf,sf,sf,sf, \
+f,f,f,f,w,w,sp,sp,sf,sf,sf,sf,sf,sf,sf,sf, \
+sf,sf,sf,sf,w,w,p,p,sm,sm,sm,sm,m,m,m,m, \
+sf,sf,sf,sf,w,w,w,sp,sm,sm,sm,sm,m,m,m,m, \
+m,m,m,m,w,w,w,p,sm,sm,sm,sm,m,m,m,m, \
+m,m,m,m,w,w,w,sp,sm,sm,sm,sm,m,m,m,m, \
+m,m,m,m,e,e,e,e,w,w,w,w,w,w,w,w, \
+m,m,m,m,e,e,e,e,w,w,w,w,w,w,w,w, \
+e,e,e,e,e,e,e,e,w,w,w,w,w,w,w,w, \
+e,e,e,e,e,e,e,e,w,w,w,w,w,w,w,w)
+
+
+
+
+
+

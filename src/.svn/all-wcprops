@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/26/trunk/DCR/src
+END
+tmxparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/26/trunk/DCR/src/tmxparser.py
+END
+game.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/26/trunk/DCR/src/game.py
+END
+res.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/26/trunk/DCR/src/res.py
+END
+data.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/26/trunk/DCR/src/data.py
+END
+ai.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/26/trunk/DCR/src/ai.py
+END
+AStar.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/26/trunk/DCR/src/AStar.py
+END
+objective.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/26/trunk/DCR/src/objective.py
+END
+player.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/26/trunk/DCR/src/player.py
+END
+map.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/26/trunk/DCR/src/map.py
+END
+cursor.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/26/trunk/DCR/src/cursor.py
+END
+tiler.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/26/trunk/DCR/src/tiler.py
+END
+unit.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/26/trunk/DCR/src/unit.py
+END
+event.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/26/trunk/DCR/src/event.py
+END
+scenario.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/26/trunk/DCR/src/scenario.py
+END

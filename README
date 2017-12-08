@@ -1,0 +1,34 @@
+-------------------------------
+- Dead But Not Out -
+-------------------------------
+
+Dead But Not Out is a strategical combat game with a fantasy theme.
+This was a passion project I implemented while learning game programming!
+
+1. License Information
+2. Manual
+
+1) License Information
+
+All (or Part) of the graphic tiles used in this program is the public 
+domain roguelike tileset "RLTiles".
+Some of the tiles have been modified.
+
+You can find the original tileset at:
+http://rltiles.sf.net
+
+Part of the graphic tiles used in this program are taken from
+http://rivendell.fortunecity.com/goddess/268/
+
+2) Manual
+
+From the top directory (i.e DBNO) run the command
+	python3 run_game.py 
+Note that pygame must be installed for the game to run.
+
+Load game has not been implemented yet. 
+
+From “new campaign”, you can start from “The Beginning” and play up until the 
+second level. (Only two levels implemented!)
+Clicking on “t.s.o.t.c.m” will start The Secret of the Chocolate Milk adventure,
+a silly campaign consisting of two scenarios.

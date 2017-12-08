@@ -1,0 +1,7 @@
+esc=[]
+esc.append("You win!")
+esc.append("")
+for unit in getVar('escaped'):
+    esc.append("- " +unit.name+" escaped")
+esc.append("")
+messageBox("Congratulations!",esc)

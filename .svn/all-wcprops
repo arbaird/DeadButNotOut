@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/26/trunk/DCR
+END
+run_game.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/26/trunk/DCR/run_game.py
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/26/trunk/DCR/.project
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/26/trunk/DCR/changelog
+END
+.pydevproject
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/26/trunk/DCR/.pydevproject
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/26/trunk/DCR/README
+END

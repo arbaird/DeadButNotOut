@@ -1,0 +1,66 @@
+hp=getVar('Player')
+fp=getVar('Folks')
+ap=getVar('Enemy')      
+moveMap(LEFT,11,True)
+for pos in (16,4),(14,7),(9,5),(2,9),(5,11),(8,12),(13,10),(14,33),(13,29),(10,26),(19,24),(11,13),(15,17),(4,19):
+	Unit(Citizen,fp).jumpTo(pos)
+for pos in (17,3),(14,30),(8,5),(1,9),(5,12),(15,7),(5,27),(7,16),(23,22),(22,21),(15,12),(2,26):
+	x=random.choice([RedImp,GreenImp,BlackImp,WhiteImp])
+	Unit(x,ap).jumpTo(pos)
+for pos in (18,22),(10,5),(4,24),(14,12),(14,21):
+	x=random.choice([Soldier,Pikeman])
+	Unit(x,hp).jumpTo(pos)
+soldier=Unit(Soldier,hp,"Soldier Marcus").jumpTo((17,4))
+fight(getUnitAt((14,12)),getUnitAt((15,12)),True)
+fight(getUnitAt((15,12)),getUnitAt((14,12)),True)
+fight(getUnitAt((15,7)),getUnitAt((14,7)),True)
+fight(getUnitAt((14,7)),getUnitAt((15,7)),True)
+
+x=0
+units=getVar('remains')
+for unit in units:
+	if 'Warrior Man' == unit.name: 
+		uthred=unit.reuse(hp).jumpTo((29,0)).walkTo((26,0),True)
+	elif 'Commander Calvin' == unit.name: 
+		haugh=unit.reuse(hp).jumpTo((29,1)).walkTo((26,1),True)
+	elif 'Oldman' == unit.name: 
+		gudrum=unit.reuse(hp).jumpTo((29,2)).walkTo((26,2),True)
+	else:
+		unit.reuse(hp).jumpTo((29,0+x)).walkTo((27,0+x),True)
+		x+=1
+
+setVar('heros',(uthred,haugh,gudrum))
+fight(soldier,getUnitAt((17,3)),True)
+getUnitAt((17,3)).die()
+soldier.walkTo((21,4),True).walkTo((21,1),True).walkTo((25,1),True)
+uthred.talk(["What's going on here?"])
+soldier.talk(["Sir!","Glad to see ya!"])
+soldier.talk(["We.. we couldn't hold them back!","They're everwere!!"])
+haugh.talk(["Calm down soldier!","Tell us what happened!"])
+soldier.talk(["Demons, Sir!","All of a sudden!"])
+soldier.talk(["They came from the earth,","we couldn't do anything!"])
+centerMap((4,5))
+wait(70)
+centerMap((14,24))
+wait(70)
+centerMap((20,18))
+wait(70)
+centerMap(haugh)
+gudrum.talk(["Those stone circles again...."])
+haugh.talk(["Quick!","He have to help the people!"])
+uthred.talk(["We can't fight them here, they're","to many. Let's evacuate the",
+			"people to that caves!"])
+caves=((26,16),(27,16),(3,23),(4,23),(8,37),(9,37),(18,30),(19,30))
+for tile in caves[::2]:
+	centerMap(tile)
+	wait(60)
+centerMap(haugh)
+haugh.talk(["That's it.","Kill those bastards and","take care they don't harm","the innocent!"])
+highlight(caves)
+getVar('Folks').getAI().setSafe(getHighlight())
+addObjective(ObjUnitMayNotDie(uthred))
+addObjective(ObjUnitMayNotDie(haugh))
+addObjective(ObjUnitMayNotDie(gudrum))
+addObjective(ObjCustom(self,"Help the citizen to escape"))
+showObjectives()
+setState(1)

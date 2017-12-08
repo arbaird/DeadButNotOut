@@ -1,0 +1,3 @@
+uthred,haugh,gudrum=getVar('heros')
+uthred.talk(["Good game","But beware!","There's no third mission yet!","Goodbye"])
+sys.exit()

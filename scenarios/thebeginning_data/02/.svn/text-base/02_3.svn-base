@@ -1,0 +1,27 @@
+uthred,haugh,gudrum=getVar('heros')
+
+centerMap(gudrum)
+gudrum.talk(["I hope Marcus' men can hold","them up!"])
+ap=getVar('Enemy') 
+
+wait(30)
+centerMap((20,18))
+wait(30)
+
+quake(60)
+portals=(20,18),(14,24),(4,5)
+for port in portals:
+	u=getUnitAt(port)
+	if u:
+		u.die()
+	Unit(Lich,ap).jumpTo(port)
+
+quake(60)
+wait(60)
+centerMap(uthred)
+uthred.talk(['What the hell?'])
+gudrum.talk(["Take care!","Lichs are dangereous."])
+uthred.talk(['Lichs?'])
+haugh.talk(["Kill them!","Kill them now!","Kill them all!!",])
+addObjective(ObjKillEnemies(self))
+showObjectives()

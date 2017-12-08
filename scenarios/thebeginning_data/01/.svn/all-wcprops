@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/DCR/scenarios/thebeginning_data/01
+END
+01_1
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/DCR/scenarios/thebeginning_data/01/01_1
+END
+01_2
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/DCR/scenarios/thebeginning_data/01/01_2
+END
+01_LOSE
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/DCR/scenarios/thebeginning_data/01/01_LOSE
+END
+01_WIN
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/DCR/scenarios/thebeginning_data/01/01_WIN
+END
+01_LOAD
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/DCR/scenarios/thebeginning_data/01/01_LOAD
+END

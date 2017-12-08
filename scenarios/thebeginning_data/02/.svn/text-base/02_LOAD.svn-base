@@ -1,0 +1,20 @@
+setVar('Player',Player(self,0,"Unaware Humans"))
+setVar('Folks',Player(self,0,"Folks",CowardAI()))
+setVar('Enemy',Player(self,1,"The Demons",SimpleAI()))
+
+# create players
+addPlayer(getVar('Player'))
+addPlayer(getVar('Folks')) 
+addPlayer(getVar('Enemy')) 
+
+setHumanPlayer(getVar('Player'))
+setActivePlayer(getVar('Player'))
+
+# create map
+setMap('map2.tmx','std_tiles.png','std_tiles.desc')
+          
+# create own variables
+setState(0)
+
+# start own script
+execute('02','02_1')

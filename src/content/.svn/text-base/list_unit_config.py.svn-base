@@ -1,0 +1,81 @@
+NAME='Name'
+GM='GroundMovement'
+FLY='Flying'
+TILE='TileNo'
+RANGE='Range'
+WFLAGS='WeaponFlags'
+HP='Hitpoints'
+WEAPONS='Weapons'
+NUNITFLAGS='UnitFlags'
+DAMAGE='Damage'
+WEAPONFLAGS='Flags'
+WEAPONTYPE='Type'
+# RANGE:
+# 
+# 1:        2:        3:             
+#
+# .....     ..x..     ..x..     
+# ..x..     .x.x.     .xxx.     
+# .xux.     x.u.x     xxuxx     
+# ..x..     .x.x.     .xxx.     
+# .....     ..x..     ..x..     
+
+# wflags:
+F_NONE=0
+F_POISON=1
+F_DEATHTOUCH=2
+
+
+F_SUPERKRIT=16
+F_FREEATTACK=32
+F_LIVEDRAINING=64
+F_ENSLAVE=128
+F_EXHAUSTING=256
+#F_SPLASH=512 # not implemented yet
+F_SACRIFICE=1024
+F_FIRE=2048
+F_HEAL=4096
+
+# types
+PIERCING=1 # stich
+BLUDGEONING=2# wucht
+SLASHING=4# hieb
+TOUCH=8
+
+# uflags
+U_MINOR_SLASH_RESISTANCE=1
+U_SLASH_RESISTANCE=2
+U_MINOR_PIERCE_RESISTANCE=4
+U_PIERCE_RESISTANCE=8
+U_MINOR_BLUGDE_RESISTANCE=16
+U_BLUGDE_RESISTANCE=32
+U_SPECTRAL=64
+
+U_CRITIMMUN=256
+U_POISON_RESISTANCE=512
+U_UNDEAD=1024
+
+UFLAGS=[U_MINOR_BLUGDE_RESISTANCE,
+        U_MINOR_PIERCE_RESISTANCE,
+        U_MINOR_SLASH_RESISTANCE,
+        U_BLUGDE_RESISTANCE,
+        U_SLASH_RESISTANCE,
+        U_PIERCE_RESISTANCE,
+        U_SPECTRAL,
+        U_CRITIMMUN,
+        U_POISON_RESISTANCE,
+        U_UNDEAD]
+
+FLAGS=[F_NONE,
+       F_POISON,
+       F_DEATHTOUCH,
+       F_SUPERKRIT,
+       F_FREEATTACK,
+       F_LIVEDRAINING,
+       F_ENSLAVE,
+       F_EXHAUSTING,
+ #      F_SPLASH,
+       F_SACRIFICE,
+       F_HEAL]
+
+UNITFLAGS=[]
